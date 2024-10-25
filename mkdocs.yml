@@ -6,4 +6,4 @@ nav:
   - Datasets: datasets.md
   - About: about.md
 
-theme: readthedocs
+theme: material

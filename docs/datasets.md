@@ -4,7 +4,7 @@ Datasets are defined by a set of files which comprise a self-contained measureme
 ## Dataset file listing
 
 How to use the query and search in SciCat.
-![photo](img/dataset_details_filelist.png)
+![photo](old/img/dataset_details_filelist.png)
 
 ## Dataset attachments
 
