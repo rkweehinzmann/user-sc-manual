@@ -2,19 +2,6 @@
 
 ## Posuit licet
 
-Lorem markdownum post tempore tincta: similis, neci enim novae. Truncaque
-*favillae* salutifer evolat oscula aquis admonuisse, adhuc nec tempora eram!
-Sensit fassura nec **magnum**: mea adversi **rorantia**: hic effugere adstas;
-alta. Traxit superstes interea repulsae meo luctu colonos stipite, rubigine
-fetus, opem. Est audentem, bibat lacus vitam, laevaque solet *agitasse*, et
-ictu.
-
-*Phineu sacra* Arcadiae haerebat luctantia: ipsa: spumosis et Grai temptatum
-*functi*. Gemit ille, serpentis constitit geminos! Est Byblis vultus nuntia; nec
-claroque inprudens opus Iovis cape **dolore fata** peregit nurus exemplo.
-Vetitis iamque bracchiaque tuus contentusque scire iam **morus indignatur**
-utraque madefecit struxerit [naribus te](http://www.et.net/terror) atque
-nymphae. Subsidit annos hunc adhuc pugnae arvis.
 
 - Voti hosti fugiunt nec palude numen
 - Pluma nec
