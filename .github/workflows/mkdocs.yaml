@@ -1,3 +1,6 @@
+name: Get directory
+  run: ls -a
+
 name: Deploy docs
 
 on:  # yamllint disable-line rule:truthy
