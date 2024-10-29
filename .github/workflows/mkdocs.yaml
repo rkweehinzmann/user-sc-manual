@@ -14,6 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Get directory
+        run: ls -a
       - uses: SciCatProject/scicatlive/.github/actions/mkdocs-pages@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
