@@ -1,6 +1,7 @@
 # Welcome to SciCat Users Manual
 
-This is a short guide to most common questions users of SciCat can face. First of all: What is SciCat? And why should I use it? SciCat, a _science catalogue_, should serve you to find back your data, a bookkeeping tool accompanying some critical steps during the entire data life cycle which are: getting an overview of datasets, data analysis, re-analysis, publishing datasets, publication. In SciCat, only the meta data is stored, descriptions to identify a certain measurement.
+This is a short guide to most common questions users of SciCat can face. First of all: What is SciCat? And why should I use it? SciCat, a _science catalogue_, should serve you to find back your data. SciCat is a bookkeeping tool accompanying some critical steps during the entire data life cycle which are: getting an *overview of datasets* for data analysis, for re-analysis, for publishing datasets, and in particular for publication. In SciCat, only the meta data is stored, descriptions to identify a certain measurements.
+
 We highlight most promiment features that SciCat offers, but note that SciCat is a general software layer which when integrated with site-specific application develops its full potential.
 
 ## Features: quick links to How-To's
