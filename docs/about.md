@@ -9,9 +9,7 @@
 
 ## Tingui Cipi est dicitur
 
-Boum fertilis cortice deos spes monstri passis, virtute, loton *Marte unde* nec,
-iuvenali. Minervae duplicataque inque fecerat declivia. Ore corporis praecordia
-voluptas nervi; sed et ad *caedis*, oraque. Sceleratus sunt.
+Can we not have bolded text in mkdocs?
 
     restore.ping(mbrUndo, chipNybbleEmulation(pptpDaw, secondaryOpticBaseband),
             cluster);
