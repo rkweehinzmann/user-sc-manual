@@ -13,6 +13,5 @@ jobs:
     steps:
       - uses: SciCatProject/scicatlive/.github/actions/mkdocs-pages@clean_false
         with:
-          path: '.'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           push: true
