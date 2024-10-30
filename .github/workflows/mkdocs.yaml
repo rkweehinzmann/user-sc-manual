@@ -7,7 +7,7 @@ on:  # yamllint disable-line rule:truthy
     tags:
       - v*
 inputs:
-  docs_dir: 
+  path: 
     description: "path where github wf runs test build"
     required: true
 
@@ -18,6 +18,6 @@ jobs:
     steps:
       - uses: SciCatProject/scicatlive/.github/actions/mkdocs-pages@main
         with:
-          docs_dir: '.'
+          path: '.'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           push: true
