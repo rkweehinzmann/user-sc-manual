@@ -11,16 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Get directory
-        run: ls -a
-      - name: Copy all to docs folder
-        shell: bash
-        run: |
-          mkdir -p docs
-          shopt -s extglob
-          mv !(docs) docs/
       - uses: SciCatProject/scicatlive/.github/actions/mkdocs-pages@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
