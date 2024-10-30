@@ -6,12 +6,18 @@ on:  # yamllint disable-line rule:truthy
       - main
     tags:
       - v*
+inputs:
+  docs_dir: 
+    description: "path where github wf runs test build"
+    required: true
 
+    
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: SciCatProject/scicatlive/.github/actions/mkdocs-pages@main
         with:
+          docs_dir: '.'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           push: true
