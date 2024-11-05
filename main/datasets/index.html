@@ -50,7 +50,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     <body dir="ltr">
@@ -471,17 +480,18 @@
 <h3 id="how-to-query-datasets">How to query datasets</h3>
 <h3 id="how-to-view-datasets">How to view datasets</h3>
 <p>To view the files contained in a dataset go to the "Datafiles tab" in the dataset details view. This will then show the files
-<img alt="Dataset Filelisting" src="../img/dataset_details_filelist.png" /></p>
+<a class="glightbox" href="../img/dataset_details_filelist.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Dataset Filelisting" src="../img/dataset_details_filelist.png" /></a></p>
 <h2 id="dataset-attachments">Dataset attachments</h2>
 <p>What kind of attachement can be saved? Will they be searchable? Can also other formats be attached than pngs?</p>
 <p>On the dataset details page, you can click on the Attachments tab
-<img alt="Choose an image file, must be udner 16 MB limit" src="../img/dataset_attachments_PSI.png" /></p>
+<a class="glightbox" href="../img/dataset_attachments_PSI.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Choose an image file, must be udner 16 MB limit" src="../img/dataset_attachments_PSI.png" /></a></p>
 <p>Simply follow the instructions to upload an image. The size is restricted to be below 16 MB.</p>
 <h2 id="view-raw-json-data">View raw JSON data</h2>
 <p>How can I see the JSON data</p>
 <h2 id="edit-scientific-meta-data">Edit Scientific meta data</h2>
-<p>If enabled, fields in the scientific metadata can be modified and edited by the owner of the data by hitting the "Edit" Icon. The user can add,remove or change metadata fields, every change will create a new record in the databse with it's history.</p>
-<p><img alt="Image edit metadata" src="../img/editMetadata.png" /></p>
+<p><a href="../Edit_Scientific_Metadata/">old describtion</a>
+If enabled, fields in the scientific metadata can be modified and edited by the owner of the data by hitting the "Edit" Icon. The user can add,remove or change metadata fields, every change will create a new record in the databse with it's history.</p>
+<p><a class="glightbox" href="../img/editMetadata.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image edit metadata" src="../img/editMetadata.png" /></a></p>
 
 
 
@@ -534,5 +544,7 @@
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
