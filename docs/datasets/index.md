@@ -1,5 +1,5 @@
 # Datasets
-Datasets are defined by a set of files which comprise a self-contained measurement - fully customizeable during ingestion of meta data.
+Datasets can include several files which e.g. comprise a self-contained measurement - which is fully customizeable during ingestion of meta data. Users can search, view, list the meta data. Soon the feature to group and tag them will be available. Datasets can also be issued to be published: either removing the restricted view or triggering the process of obtaining a DOI for the selected datasets.
 
 
 
@@ -17,7 +17,7 @@ To view the files contained in a dataset go to the "Datafiles tab" in the datase
 What kind of attachement can be saved? Will they be searchable? Can also other formats be attached than pngs?
 
 On the dataset details page, you can click on the Attachments tab
-![Choose an image file, must be udner 16 MB limit](img/dataset_attachments_PSI.png)
+![Choose an image file, must be under 16 MB limit](img/dataset_attachments_PSI.png)
 
 Simply follow the instructions to upload an image. The size is restricted to be below 16 MB.
 

@@ -20,11 +20,17 @@ Your data may be of type raw or derived, you may want to login or just browse wh
 
 These main classes determine the functionality of SciCat: 
 
-1. [Datasets](datasets.md): This class is the most elaborated one. 
+1. [Datasets](datasets/index.md): This class is the most elaborated one. 
 2. [Proposals](proposals.md): are used to link datasets to the proposal under which beamtime was granted.
 3. [Instruments](instruments.md): Depending on the science background `instruments` can mean something different.
 4. [Samples](samples.md): 
 
 
-## Links to site-specific SciCat documentation for users 
+## Links to site-specific SciCat documentation of user sites
+
+* ESS
+* PSI
+* MAXIV
+* SOLEIL
+* DESY
 
