@@ -6,7 +6,8 @@ nav:
       - login/index.md
       - Anonymous: login/Anonymous.md
       - Dashboard: login/Dashboard.md
-  - Datasets: datasets.md
+  - Datasets: 
+      - datasets/index.md
   - Proposals: proposals.md
   - Samples: samples.md
   - Instruments: instruments.md
