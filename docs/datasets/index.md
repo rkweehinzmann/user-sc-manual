@@ -1,5 +1,5 @@
 # Datasets
-Datasets can include several files which e.g. comprise a self-contained measurement - which is fully customizeable during ingestion of meta data. Users can search, view, list the meta data. Soon the feature to group and tag them will be available. Datasets can also be issued to be published: either removing the restricted view or triggering the process of obtaining a DOI for the selected datasets.
+Datasets can include several files which e.g. comprise a self-contained measurement - which is fully customizeable during ingestion of meta data. Users can search, view, list the meta data. Soon the feature to group and tag them will be available. Datasets can also be issued to be published: either removing the restricted view or triggering the process of obtaining a DOI for the selected datasets, see [old description](Publishing.md).
 
 
 
@@ -30,3 +30,5 @@ How can I see the JSON data
 If enabled, fields in the scientific metadata can be modified and edited by the owner of the data by hitting the "Edit" Icon. The user can add,remove or change metadata fields, every change will create a new record in the databse with it's history.
 
 ![Image edit metadata](img/editMetadata.png)
+
+
