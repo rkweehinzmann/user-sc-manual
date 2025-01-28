@@ -4,7 +4,7 @@ This is a short guide to most common questions users of SciCat can face. First o
 
 We highlight most promiment features that SciCat offers, but note that SciCat is a general software layer which when integrated with site-specific application develops its full potential.
 
-## Features: quick links to How-To's
+## Features: Quick links to How-To's
 
 Your data may be of type raw or derived, you may want to login or just browse what's in the catalogue. Here is how to find more on how to proceed:
 
@@ -14,6 +14,11 @@ Your data may be of type raw or derived, you may want to login or just browse wh
 *   How to view history of changes to a dataset
 *   How to group and tag datasets
 *   How to group and tag grouped datasets
+
+## A few more How-To's for users/site-admins
+
+* Where to find the version of the deployed SciCat Frontend? Check [here](operatorHowTos.md).
+
 
 
 ## Structure of SciCat
@@ -33,4 +38,5 @@ These main classes determine the functionality of SciCat:
 * MAXIV
 * SOLEIL
 * DESY
+
 
