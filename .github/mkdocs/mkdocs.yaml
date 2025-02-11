@@ -1,5 +1,7 @@
-site_name: SciCat User Manual
+site_name: SciCat Documentation
 docs_dir: ../../docs
+
+
 nav: 
   - Home: index.md
   - Login: 
@@ -12,7 +14,10 @@ nav:
   - Proposals: proposals.md
   - Samples: samples.md
   - Instruments: instruments.md
-  - About: about.md
+  - Troubleshooting:
+      - troubleshoot/index.md
+  - About:
+      - about/index.md
 
 theme: material
 
